@@ -17,7 +17,17 @@ var config = {
       include: APP_DIR,
       loader: "babel-loader" }
     ]
-  }
+  },
+  plugins: [
+    // new webpack.DefinePlugin({
+    //   'process.env': {
+    //     'NODE_ENV': JSON.stringify('production')
+    //   }
+    // }),
+    // new webpack.optimize.UglifyJsPlugin(),
+    // new webpack.optimize.DedupePlugin(),
+
+  ]
 };
 
 module.exports = config;

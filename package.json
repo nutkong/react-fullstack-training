@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "hello": "echo \"HELLO!\"",
-    "hello2": "npm run hello && echo \"HELLO2!\""
+    "build": "webpack --watch --progress --color -p",
+    "dev": "webpack -d --watch --progress --color"
   },
   "keywords": [
     "reactjs",
@@ -21,6 +21,8 @@
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
     "webpack": "^1.13.2"
   }
 }

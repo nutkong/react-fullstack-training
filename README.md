@@ -20,4 +20,14 @@
  npm install babel-loader babel-preset-es2015 babel-preset-react --save
  - edit the webpack.config.js
  - create .babelrc
+ webpack
 
+### react, react-dom
+ - remove the CDN 
+npm install react react-dom --save
+ - edit the src/index.jsx
+ webpack
+ webpack --watch --progress --color
+ - edit the npm file for combo
+ - Tune webpack.config.js plugins for better size
+ 
