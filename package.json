@@ -1,0 +1,22 @@
+{
+  "name": "tutorial-react-2",
+  "version": "1.0.0",
+  "description": "ReactJS Tutorial. minimal implementation with unit test and server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "echo \"HELLO!\"",
+    "hello2": "npm run hello && echo \"HELLO2!\""
+  },
+  "keywords": [
+    "reactjs",
+    "tutorial",
+    "test",
+    "node-api"
+  ],
+  "author": "nutkong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
