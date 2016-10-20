@@ -60,3 +60,12 @@ npm install react react-dom --save
  - add event handler
  - fetch() api
 
+### testing
+npm install --save-dev mocha jsdom react-addons-test-utils
+npm install --save-dev chai enzyme
+mkdir test/helpers
+touch test/helpers/browser.js
+ - add file content
+ - add npm run script
+npm run test
+ - add test spec.jsx

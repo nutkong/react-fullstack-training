@@ -4,7 +4,7 @@
   "description": "ReactJS Tutorial. minimal implementation with unit test and server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha -w test/helpers/browser.js test/*.spec.js",
     "build": "webpack --watch --progress --color -p",
     "dev": "webpack -d --watch --progress --color"
   },
@@ -24,5 +24,12 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "enzyme": "^2.5.1",
+    "jsdom": "^9.8.0",
+    "mocha": "^3.1.2",
+    "react-addons-test-utils": "^15.3.2"
   }
 }
