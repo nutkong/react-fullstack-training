@@ -54,4 +54,9 @@ npm install react react-dom --save
  - bind the event
 
 ### node express endpoint
+ - simple express result
+ - create another component
+ - import the component 
+ - add event handler
+ - fetch() api
 
