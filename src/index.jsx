@@ -1,11 +1,7 @@
-import React from 'react';
 import { render } from 'react-dom';
+import React from 'react';
 
-class HelloComponent extends React.Component {  
-  render() {
-    return <div>Hello 2-5 {this.props.name}</div>;
-  }
-}
+import HelloComponent from './hellocomponent.jsx';
 
 render(
   <HelloComponent name="nutkong" />,

@@ -1,3 +1,7 @@
+# Compile Command
+npm run dev
+npm run start
+
 ## Command history
  npm init
  npm run test
@@ -30,4 +34,11 @@ npm install react react-dom --save
  webpack --watch --progress --color
  - edit the npm file for combo
  - Tune webpack.config.js plugins for better size
+
+### exporting module
+ - create another file in src 
+ - copy over the component
+ - export default class....
+ - import that component and put it in render
+
  
