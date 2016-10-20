@@ -1,6 +1,8 @@
 # Compile Command
-npm run dev
-npm run start
+Frontend watch and compile :npm run dev
+Start Server: npm run start
+
+To deploy: npm run build
 
 ## Command history
  npm init
@@ -41,4 +43,15 @@ npm install react react-dom --save
  - export default class....
  - import that component and put it in render
 
- 
+### react state
+ - define initial state
+ - display the state
+
+### react eventHandler
+ - create a button
+ - add Event handler 
+ - add state
+ - bind the event
+
+### node express endpoint
+
